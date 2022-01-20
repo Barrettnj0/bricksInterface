@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    border-top: 20px solid black;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+
+.box{
+    background-color: black;
+    border-top: 20px solid darkseagreen;
+    border-right: 20px solid darkseagreen;
+    border-left: 20px solid darkseagreen;
+}
+
+.grid{
+    background-color: black;
+    display: grid;
+    padding: 2px;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 1px;
+    column-gap: 1px;
+    width: auto;
+}
+
+.grid > div{
+    font-size: 1rem;
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    margin: 1px;
+}
+
+.grid .red-brick{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.grid .yellow-brick{
+    background-color: yellow;
+    border-radius: 2px;
+}
+
+.grid .green-brick{
+    background-color: green;
+    border-radius: 2px;
+}
+
+.grid .blue-brick{
+    background-color: blue;
+    border-radius: 2px;
+}
+
+.box #board{
+    background-color: darkseagreen;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    text-align: top;
+    left: 50%;
+    bottom: 0;
+}
+
+#score p{
+    position: absolute;
+    top: -14px;
+    right: 200px;
+    width: 100px;
+    text-align: right;
+    color: darkseagreen;
+}
+
+#ball1{
+    position: absolute;
+    text-align: bottom;
+    left: 8%;
+    bottom: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+#ball2{
+    position: absolute;
+    text-align: bottom;
+    left: 9.6%;
+    bottom: 80%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+#ball3{
+    position: absolute;
+    text-align: top;
+    left: 72.8%;
+    bottom: 80%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
